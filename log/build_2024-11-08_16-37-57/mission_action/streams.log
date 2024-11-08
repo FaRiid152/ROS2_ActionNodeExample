@@ -1,0 +1,243 @@
+[0.012s] Invoking command in '/home/icore/Desktop/FleetGlue/build/mission_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icore/Desktop/FleetGlue/install/fleet_mission:/opt/ros/humble /usr/bin/cmake /home/icore/Desktop/FleetGlue/src/mission_action -DCMAKE_INSTALL_PREFIX=/home/icore/Desktop/FleetGlue/install/mission_action
+[0.088s] -- The C compiler identification is GNU 11.4.0
+[0.174s] -- The CXX compiler identification is GNU 11.4.0
+[0.183s] -- Detecting C compiler ABI info
+[0.287s] -- Detecting C compiler ABI info - done
+[0.296s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.296s] -- Detecting C compile features
+[0.297s] -- Detecting C compile features - done
+[0.300s] -- Detecting CXX compiler ABI info
+[0.419s] -- Detecting CXX compiler ABI info - done
+[0.429s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.429s] -- Detecting CXX compile features
+[0.430s] -- Detecting CXX compile features - done
+[0.433s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.632s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.747s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[0.790s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.797s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.807s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.823s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.846s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.892s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.941s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.945s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.060s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.092s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.151s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.163s] -- Looking for pthread.h
+[1.268s] -- Looking for pthread.h - found
+[1.268s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.372s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.374s] -- Found Threads: TRUE  
+[1.446s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.791s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.207s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.364s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.390s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.393s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.428s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.428s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.428s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.428s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.456s] -- Found PythonExtra: .so  
+[2.509s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.537s] -- Added test 'lint_cmake' to check CMake code style
+[2.539s] -- Added test 'xmllint' to check XML markup files
+[2.543s] -- Configuring done
+[2.587s] -- Generating done
+[2.590s] -- Build files have been written to: /home/icore/Desktop/FleetGlue/build/mission_action
+[2.607s] Invoked command in '/home/icore/Desktop/FleetGlue/build/mission_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icore/Desktop/FleetGlue/install/fleet_mission:/opt/ros/humble /usr/bin/cmake /home/icore/Desktop/FleetGlue/src/mission_action -DCMAKE_INSTALL_PREFIX=/home/icore/Desktop/FleetGlue/install/mission_action
+[2.610s] Invoking command in '/home/icore/Desktop/FleetGlue/build/mission_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icore/Desktop/FleetGlue/install/fleet_mission:/opt/ros/humble /usr/bin/cmake --build /home/icore/Desktop/FleetGlue/build/mission_action -- -j4 -l4
+[2.685s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.703s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.705s] [  6%] Built target ament_cmake_python_copy_mission_action
+[3.300s] running egg_info
+[3.300s] creating mission_action.egg-info
+[3.301s] writing mission_action.egg-info/PKG-INFO
+[3.301s] writing dependency_links to mission_action.egg-info/dependency_links.txt
+[3.302s] writing top-level names to mission_action.egg-info/top_level.txt
+[3.303s] writing manifest file 'mission_action.egg-info/SOURCES.txt'
+[3.306s] reading manifest file 'mission_action.egg-info/SOURCES.txt'
+[3.306s] writing manifest file 'mission_action.egg-info/SOURCES.txt'
+[3.372s] [  6%] Built target ament_cmake_python_build_mission_action_egg
+[3.387s] [  6%] Built target mission_action__cpp
+[3.404s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.408s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.409s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.643s] [ 19%] [32mBuilding C object CMakeFiles/mission_action__rosidl_generator_c.dir/rosidl_generator_c/mission_action/action/detail/mission_action__functions.c.o[0m
+[3.842s] [ 22%] [32m[1mLinking C shared library libmission_action__rosidl_generator_c.so[0m
+[3.881s] [ 25%] [32mBuilding CXX object CMakeFiles/mission_action__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mission_action/action/mission_action__type_support.cpp.o[0m
+[3.910s] [ 25%] Built target mission_action__rosidl_generator_c
+[3.934s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.991s] [ 32%] [32mBuilding CXX object CMakeFiles/mission_action__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mission_action/action/detail/mission_action__type_support.cpp.o[0m
+[4.061s] [ 35%] [32mBuilding CXX object CMakeFiles/mission_action__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mission_action/action/detail/dds_fastrtps/mission_action__type_support.cpp.o[0m
+[4.592s] [ 38%] [32mBuilding CXX object CMakeFiles/mission_action__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mission_action/action/detail/mission_action__type_support_c.cpp.o[0m
+[4.708s] [ 41%] [32m[1mLinking CXX shared library libmission_action__rosidl_typesupport_cpp.so[0m
+[4.808s] [ 41%] Built target mission_action__rosidl_typesupport_cpp
+[4.827s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.873s] [ 48%] [32m[1mLinking CXX shared library libmission_action__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.018s] [ 51%] [32m[1mLinking CXX shared library libmission_action__rosidl_typesupport_introspection_cpp.so[0m
+[5.024s] [ 51%] Built target mission_action__rosidl_typesupport_fastrtps_cpp
+[5.048s] [ 54%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.198s] [ 54%] Built target mission_action__rosidl_typesupport_introspection_cpp
+[5.355s] [ 58%] [32m[1mLinking CXX shared library libmission_action__rosidl_typesupport_fastrtps_c.so[0m
+[5.471s] [ 61%] [32mBuilding C object CMakeFiles/mission_action__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mission_action/action/detail/mission_action__type_support.c.o[0m
+[5.507s] [ 61%] Built target mission_action__rosidl_typesupport_fastrtps_c
+[5.534s] [ 64%] [32mBuilding CXX object CMakeFiles/mission_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_action/action/mission_action__type_support.cpp.o[0m
+[5.535s] [ 67%] [32m[1mLinking C shared library libmission_action__rosidl_typesupport_introspection_c.so[0m
+[5.590s] [ 67%] Built target mission_action__rosidl_typesupport_introspection_c
+[5.608s] [ 70%] [32m[1mLinking CXX shared library libmission_action__rosidl_typesupport_c.so[0m
+[5.672s] [ 70%] Built target mission_action__rosidl_typesupport_c
+[5.702s] [ 70%] Built target mission_action
+[5.731s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.682s] [ 74%] Built target mission_action__py
+[6.711s] [ 77%] [32mBuilding C object CMakeFiles/mission_action__rosidl_generator_py.dir/rosidl_generator_py/mission_action/action/_mission_action_s.c.o[0m
+[6.901s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/mission_action/libmission_action__rosidl_generator_py.so[0m
+[6.962s] [ 80%] Built target mission_action__rosidl_generator_py
+[6.996s] [ 83%] [32mBuilding C object CMakeFiles/mission_action__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mission_action/_mission_action_s.ep.rosidl_typesupport_c.c.o[0m
+[6.996s] [ 87%] [32mBuilding C object CMakeFiles/mission_action__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/mission_action/_mission_action_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.000s] [ 90%] [32mBuilding C object CMakeFiles/mission_action__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/mission_action/_mission_action_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.182s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/mission_action/mission_action_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.198s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/mission_action/mission_action_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.205s] [100%] [32m[1mLinking C shared library rosidl_generator_py/mission_action/mission_action_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.245s] [100%] Built target mission_action__rosidl_typesupport_fastrtps_c__pyext
+[7.267s] [100%] Built target mission_action__rosidl_typesupport_introspection_c__pyext
+[7.275s] [100%] Built target mission_action__rosidl_typesupport_c__pyext
+[7.293s] Invoked command in '/home/icore/Desktop/FleetGlue/build/mission_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icore/Desktop/FleetGlue/install/fleet_mission:/opt/ros/humble /usr/bin/cmake --build /home/icore/Desktop/FleetGlue/build/mission_action -- -j4 -l4
+[7.405s] Invoking command in '/home/icore/Desktop/FleetGlue/build/mission_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icore/Desktop/FleetGlue/install/fleet_mission:/opt/ros/humble /usr/bin/cmake --install /home/icore/Desktop/FleetGlue/build/mission_action
+[7.416s] -- Install configuration: ""
+[7.417s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/ament_index/resource_index/rosidl_interfaces/mission_action
+[7.417s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action
+[7.417s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/action
+[7.418s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/action/mission_action.h
+[7.418s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/action/detail
+[7.418s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/action/detail/mission_action__struct.h
+[7.418s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/action/detail/mission_action__functions.h
+[7.418s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/action/detail/mission_action__functions.c
+[7.418s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/action/detail/mission_action__type_support.h
+[7.418s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/msg
+[7.418s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/msg/rosidl_generator_c__visibility_control.h
+[7.419s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/environment/library_path.sh
+[7.419s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/environment/library_path.dsv
+[7.419s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/lib/libmission_action__rosidl_generator_c.so
+[7.421s] -- Set runtime path of "/home/icore/Desktop/FleetGlue/install/mission_action/lib/libmission_action__rosidl_generator_c.so" to ""
+[7.421s] -- Up-to-date: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action
+[7.422s] -- Up-to-date: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/action
+[7.422s] -- Up-to-date: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/action/detail
+[7.422s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/action/detail/mission_action__rosidl_typesupport_fastrtps_c.h
+[7.422s] -- Up-to-date: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/msg
+[7.423s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.423s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/lib/libmission_action__rosidl_typesupport_fastrtps_c.so
+[7.423s] -- Set runtime path of "/home/icore/Desktop/FleetGlue/install/mission_action/lib/libmission_action__rosidl_typesupport_fastrtps_c.so" to ""
+[7.423s] -- Up-to-date: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action
+[7.423s] -- Up-to-date: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/action
+[7.423s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/action/mission_action.hpp
+[7.423s] -- Up-to-date: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/action/detail
+[7.423s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/action/detail/mission_action__traits.hpp
+[7.423s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/action/detail/mission_action__builder.hpp
+[7.423s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/action/detail/mission_action__struct.hpp
+[7.424s] -- Up-to-date: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action
+[7.424s] -- Up-to-date: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/action
+[7.424s] -- Up-to-date: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/action/detail
+[7.424s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/action/detail/dds_fastrtps
+[7.424s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/action/detail/mission_action__rosidl_typesupport_fastrtps_cpp.hpp
+[7.424s] -- Up-to-date: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/msg
+[7.424s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.424s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/lib/libmission_action__rosidl_typesupport_fastrtps_cpp.so
+[7.424s] -- Set runtime path of "/home/icore/Desktop/FleetGlue/install/mission_action/lib/libmission_action__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.424s] -- Up-to-date: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action
+[7.424s] -- Up-to-date: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/action
+[7.424s] -- Up-to-date: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/action/detail
+[7.425s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/action/detail/mission_action__rosidl_typesupport_introspection_c.h
+[7.425s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/action/detail/mission_action__type_support.c
+[7.425s] -- Up-to-date: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/msg
+[7.425s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.425s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/lib/libmission_action__rosidl_typesupport_introspection_c.so
+[7.426s] -- Set runtime path of "/home/icore/Desktop/FleetGlue/install/mission_action/lib/libmission_action__rosidl_typesupport_introspection_c.so" to ""
+[7.426s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/lib/libmission_action__rosidl_typesupport_c.so
+[7.426s] -- Set runtime path of "/home/icore/Desktop/FleetGlue/install/mission_action/lib/libmission_action__rosidl_typesupport_c.so" to ""
+[7.426s] -- Up-to-date: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action
+[7.426s] -- Up-to-date: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/action
+[7.426s] -- Up-to-date: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/action/detail
+[7.426s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/action/detail/mission_action__rosidl_typesupport_introspection_cpp.hpp
+[7.426s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/include/mission_action/mission_action/action/detail/mission_action__type_support.cpp
+[7.426s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/lib/libmission_action__rosidl_typesupport_introspection_cpp.so
+[7.427s] -- Set runtime path of "/home/icore/Desktop/FleetGlue/install/mission_action/lib/libmission_action__rosidl_typesupport_introspection_cpp.so" to ""
+[7.427s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/lib/libmission_action__rosidl_typesupport_cpp.so
+[7.428s] -- Set runtime path of "/home/icore/Desktop/FleetGlue/install/mission_action/lib/libmission_action__rosidl_typesupport_cpp.so" to ""
+[7.428s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/environment/pythonpath.sh
+[7.428s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/environment/pythonpath.dsv
+[7.428s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/local/lib/python3.10/dist-packages/mission_action-0.0.0-py3.10.egg-info
+[7.428s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/local/lib/python3.10/dist-packages/mission_action-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.428s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/local/lib/python3.10/dist-packages/mission_action-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.430s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/local/lib/python3.10/dist-packages/mission_action-0.0.0-py3.10.egg-info/PKG-INFO
+[7.430s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/local/lib/python3.10/dist-packages/mission_action-0.0.0-py3.10.egg-info/top_level.txt
+[7.430s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/local/lib/python3.10/dist-packages/mission_action
+[7.430s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/local/lib/python3.10/dist-packages/mission_action/mission_action_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.431s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/local/lib/python3.10/dist-packages/mission_action/action
+[7.431s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/local/lib/python3.10/dist-packages/mission_action/action/__init__.py
+[7.431s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/local/lib/python3.10/dist-packages/mission_action/action/_mission_action.py
+[7.431s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/local/lib/python3.10/dist-packages/mission_action/action/_mission_action_s.c
+[7.432s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/local/lib/python3.10/dist-packages/mission_action/libmission_action__rosidl_generator_py.so
+[7.432s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/local/lib/python3.10/dist-packages/mission_action/_mission_action_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.432s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/local/lib/python3.10/dist-packages/mission_action/__init__.py
+[7.432s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/local/lib/python3.10/dist-packages/mission_action/mission_action_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.433s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/local/lib/python3.10/dist-packages/mission_action/_mission_action_s.ep.rosidl_typesupport_introspection_c.c
+[7.433s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/local/lib/python3.10/dist-packages/mission_action/mission_action_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.433s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/local/lib/python3.10/dist-packages/mission_action/_mission_action_s.ep.rosidl_typesupport_c.c
+[7.485s] Listing '/home/icore/Desktop/FleetGlue/install/mission_action/local/lib/python3.10/dist-packages/mission_action'...
+[7.485s] Compiling '/home/icore/Desktop/FleetGlue/install/mission_action/local/lib/python3.10/dist-packages/mission_action/__init__.py'...
+[7.486s] Listing '/home/icore/Desktop/FleetGlue/install/mission_action/local/lib/python3.10/dist-packages/mission_action/action'...
+[7.486s] Compiling '/home/icore/Desktop/FleetGlue/install/mission_action/local/lib/python3.10/dist-packages/mission_action/action/__init__.py'...
+[7.486s] Compiling '/home/icore/Desktop/FleetGlue/install/mission_action/local/lib/python3.10/dist-packages/mission_action/action/_mission_action.py'...
+[7.492s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/local/lib/python3.10/dist-packages/mission_action/mission_action_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.492s] -- Set runtime path of "/home/icore/Desktop/FleetGlue/install/mission_action/local/lib/python3.10/dist-packages/mission_action/mission_action_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.492s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/local/lib/python3.10/dist-packages/mission_action/mission_action_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.493s] -- Set runtime path of "/home/icore/Desktop/FleetGlue/install/mission_action/local/lib/python3.10/dist-packages/mission_action/mission_action_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.493s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/local/lib/python3.10/dist-packages/mission_action/mission_action_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.495s] -- Set runtime path of "/home/icore/Desktop/FleetGlue/install/mission_action/local/lib/python3.10/dist-packages/mission_action/mission_action_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.495s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/lib/libmission_action__rosidl_generator_py.so
+[7.495s] -- Set runtime path of "/home/icore/Desktop/FleetGlue/install/mission_action/lib/libmission_action__rosidl_generator_py.so" to ""
+[7.495s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/action/MissionAction.idl
+[7.495s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/action/MissionAction.action
+[7.496s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/ament_index/resource_index/package_run_dependencies/mission_action
+[7.496s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/ament_index/resource_index/parent_prefix_path/mission_action
+[7.496s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/environment/ament_prefix_path.sh
+[7.496s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/environment/ament_prefix_path.dsv
+[7.496s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/environment/path.sh
+[7.496s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/environment/path.dsv
+[7.497s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/local_setup.bash
+[7.497s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/local_setup.sh
+[7.497s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/local_setup.zsh
+[7.497s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/local_setup.dsv
+[7.498s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/package.dsv
+[7.498s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/ament_index/resource_index/packages/mission_action
+[7.498s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/cmake/export_mission_action__rosidl_generator_cExport.cmake
+[7.498s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/cmake/export_mission_action__rosidl_generator_cExport-noconfig.cmake
+[7.498s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/cmake/export_mission_action__rosidl_typesupport_fastrtps_cExport.cmake
+[7.499s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/cmake/export_mission_action__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.499s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/cmake/export_mission_action__rosidl_generator_cppExport.cmake
+[7.499s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/cmake/export_mission_action__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.499s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/cmake/export_mission_action__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.500s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/cmake/mission_action__rosidl_typesupport_introspection_cExport.cmake
+[7.500s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/cmake/mission_action__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.500s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/cmake/mission_action__rosidl_typesupport_cExport.cmake
+[7.500s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/cmake/mission_action__rosidl_typesupport_cExport-noconfig.cmake
+[7.500s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/cmake/mission_action__rosidl_typesupport_introspection_cppExport.cmake
+[7.501s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/cmake/mission_action__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.501s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/cmake/mission_action__rosidl_typesupport_cppExport.cmake
+[7.501s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/cmake/mission_action__rosidl_typesupport_cppExport-noconfig.cmake
+[7.501s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/cmake/export_mission_action__rosidl_generator_pyExport.cmake
+[7.501s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/cmake/export_mission_action__rosidl_generator_pyExport-noconfig.cmake
+[7.502s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/cmake/rosidl_cmake-extras.cmake
+[7.502s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.502s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.502s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/cmake/ament_cmake_export_libraries-extras.cmake
+[7.502s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/cmake/ament_cmake_export_targets-extras.cmake
+[7.502s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.503s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.503s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/cmake/mission_actionConfig.cmake
+[7.503s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/cmake/mission_actionConfig-version.cmake
+[7.503s] -- Installing: /home/icore/Desktop/FleetGlue/install/mission_action/share/mission_action/package.xml
+[7.506s] Invoked command in '/home/icore/Desktop/FleetGlue/build/mission_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icore/Desktop/FleetGlue/install/fleet_mission:/opt/ros/humble /usr/bin/cmake --install /home/icore/Desktop/FleetGlue/build/mission_action

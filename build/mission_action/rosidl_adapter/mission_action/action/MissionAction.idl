@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from mission_action/action/MissionAction.action
+// generated code does not contain a copyright notice
+
+
+module mission_action {
+  module action {
+    @verbatim (language="comment", text=
+      "MissionAction.action")
+    struct MissionAction_Goal {
+      @verbatim (language="comment", text=
+        "Goal definition")
+      string mission_id;
+
+      @verbatim (language="comment", text=
+        "This could be a JSON string or a structured string representing the mission details.")
+      string mission_details;
+    };
+    @verbatim (language="comment", text=
+      "Result definition")
+    struct MissionAction_Result {
+      boolean success;
+
+      string message;
+    };
+    @verbatim (language="comment", text=
+      "Feedback definition" "\n"
+      "(You can keep this empty or add feedback fields if needed)")
+    struct MissionAction_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

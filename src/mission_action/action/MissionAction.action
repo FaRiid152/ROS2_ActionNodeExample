@@ -1,0 +1,12 @@
+# MissionAction.action
+
+# Goal definition
+string mission_id
+string mission_details  # This could be a JSON string or a structured string representing the mission details.
+---
+# Result definition
+bool success
+string message
+---
+# Feedback definition
+# (You can keep this empty or add feedback fields if needed)

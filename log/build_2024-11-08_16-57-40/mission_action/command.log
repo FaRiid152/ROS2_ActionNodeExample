@@ -1,0 +1,2 @@
+Invoking command in '/home/icore/Desktop/FleetGlue/build/mission_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icore/Desktop/FleetGlue/install/fleet_mission:/opt/ros/humble /usr/bin/cmake --build /home/icore/Desktop/FleetGlue/build/mission_action -- -j4 -l4
+Invoked command in '/home/icore/Desktop/FleetGlue/build/mission_action' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/icore/Desktop/FleetGlue/install/fleet_mission:/opt/ros/humble /usr/bin/cmake --build /home/icore/Desktop/FleetGlue/build/mission_action -- -j4 -l4

@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/fleet_mission/fleet_mission.egg-info/PKG-INFO
+writing dependency_links to ../../build/fleet_mission/fleet_mission.egg-info/dependency_links.txt
+writing entry points to ../../build/fleet_mission/fleet_mission.egg-info/entry_points.txt
+writing requirements to ../../build/fleet_mission/fleet_mission.egg-info/requires.txt
+writing top-level names to ../../build/fleet_mission/fleet_mission.egg-info/top_level.txt
+reading manifest file '../../build/fleet_mission/fleet_mission.egg-info/SOURCES.txt'
+writing manifest file '../../build/fleet_mission/fleet_mission.egg-info/SOURCES.txt'
+running build
+running build_py
+copying fleet_mission/rn1.py -> /home/icore/Desktop/FleetGlue/build/fleet_mission/build/lib/fleet_mission
+copying fleet_mission/rn2.py -> /home/icore/Desktop/FleetGlue/build/fleet_mission/build/lib/fleet_mission
+running install
+running install_lib
+copying /home/icore/Desktop/FleetGlue/build/fleet_mission/build/lib/fleet_mission/rn2.py -> /home/icore/Desktop/FleetGlue/install/fleet_mission/lib/python3.10/site-packages/fleet_mission
+copying /home/icore/Desktop/FleetGlue/build/fleet_mission/build/lib/fleet_mission/rn1.py -> /home/icore/Desktop/FleetGlue/install/fleet_mission/lib/python3.10/site-packages/fleet_mission
+byte-compiling /home/icore/Desktop/FleetGlue/install/fleet_mission/lib/python3.10/site-packages/fleet_mission/rn2.py to rn2.cpython-310.pyc
+byte-compiling /home/icore/Desktop/FleetGlue/install/fleet_mission/lib/python3.10/site-packages/fleet_mission/rn1.py to rn1.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/icore/Desktop/FleetGlue/install/fleet_mission/lib/python3.10/site-packages/fleet_mission-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/fleet_mission/fleet_mission.egg-info to /home/icore/Desktop/FleetGlue/install/fleet_mission/lib/python3.10/site-packages/fleet_mission-0.0.1-py3.10.egg-info
+running install_scripts
+Installing rn1 script to /home/icore/Desktop/FleetGlue/install/fleet_mission/lib/fleet_mission
+Installing rn2 script to /home/icore/Desktop/FleetGlue/install/fleet_mission/lib/fleet_mission
+writing list of installed files to '/home/icore/Desktop/FleetGlue/build/fleet_mission/install.log'

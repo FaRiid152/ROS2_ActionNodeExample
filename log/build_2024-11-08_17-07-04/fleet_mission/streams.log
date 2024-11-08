@@ -1,0 +1,22 @@
+[0.828s] Invoking command in '/home/icore/Desktop/FleetGlue/src/fleet_mission': LD_LIBRARY_PATH=/home/icore/Desktop/FleetGlue/install/mission_action/lib:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/icore/Desktop/FleetGlue/build/fleet_mission/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/icore/Desktop/FleetGlue/install/fleet_mission/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/fleet_mission build --build-base /home/icore/Desktop/FleetGlue/build/fleet_mission/build install --record /home/icore/Desktop/FleetGlue/build/fleet_mission/install.log --single-version-externally-managed install_data
+[1.133s] running egg_info
+[1.134s] writing ../../build/fleet_mission/fleet_mission.egg-info/PKG-INFO
+[1.134s] writing dependency_links to ../../build/fleet_mission/fleet_mission.egg-info/dependency_links.txt
+[1.134s] writing entry points to ../../build/fleet_mission/fleet_mission.egg-info/entry_points.txt
+[1.135s] writing requirements to ../../build/fleet_mission/fleet_mission.egg-info/requires.txt
+[1.135s] writing top-level names to ../../build/fleet_mission/fleet_mission.egg-info/top_level.txt
+[1.139s] reading manifest file '../../build/fleet_mission/fleet_mission.egg-info/SOURCES.txt'
+[1.140s] writing manifest file '../../build/fleet_mission/fleet_mission.egg-info/SOURCES.txt'
+[1.141s] running build
+[1.141s] running build_py
+[1.141s] running install
+[1.141s] running install_lib
+[1.143s] running install_data
+[1.143s] running install_egg_info
+[1.145s] removing '/home/icore/Desktop/FleetGlue/install/fleet_mission/lib/python3.10/site-packages/fleet_mission-0.0.1-py3.10.egg-info' (and everything under it)
+[1.145s] Copying ../../build/fleet_mission/fleet_mission.egg-info to /home/icore/Desktop/FleetGlue/install/fleet_mission/lib/python3.10/site-packages/fleet_mission-0.0.1-py3.10.egg-info
+[1.146s] running install_scripts
+[1.174s] Installing rn1 script to /home/icore/Desktop/FleetGlue/install/fleet_mission/lib/fleet_mission
+[1.174s] Installing rn2 script to /home/icore/Desktop/FleetGlue/install/fleet_mission/lib/fleet_mission
+[1.175s] writing list of installed files to '/home/icore/Desktop/FleetGlue/build/fleet_mission/install.log'
+[1.200s] Invoked command in '/home/icore/Desktop/FleetGlue/src/fleet_mission' returned '0': LD_LIBRARY_PATH=/home/icore/Desktop/FleetGlue/install/mission_action/lib:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/icore/Desktop/FleetGlue/build/fleet_mission/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/icore/Desktop/FleetGlue/install/fleet_mission/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/fleet_mission build --build-base /home/icore/Desktop/FleetGlue/build/fleet_mission/build install --record /home/icore/Desktop/FleetGlue/build/fleet_mission/install.log --single-version-externally-managed install_data
