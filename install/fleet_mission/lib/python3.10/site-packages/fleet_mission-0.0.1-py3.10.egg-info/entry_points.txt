@@ -1,4 +1,0 @@
-[console_scripts]
-rn1 = fleet_mission.rn1:main
-rn2 = fleet_mission.rn2:main
-
